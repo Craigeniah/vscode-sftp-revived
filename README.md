@@ -2,6 +2,22 @@
 
 **This was originally a fork from [liximomo's SFTP plugin](https://github.com/liximomo/vscode-sftp.git).**
 
+- [SFTP Revived for VSCode](#sftp-revived-for-vscode)
+  - [Description](#description)
+  - [Documentation](#documentation)
+  - [Usage](#usage)
+  - [Example Configs](#example-configs)
+    - [Simple](#simple)
+    - [Profiles](#profiles)
+    - [Multiple Context](#multiple-context)
+    - [Connection Hopping](#connection-hopping)
+      - [Single Hop](#single-hop)
+      - [Multiple Hop](#multiple-hop)
+    - [Config in User Setting](#config-in-user-setting)
+  - [Remote Explorer](#remote-explorer)
+  - [Debug](#debug)
+  - [Contributing](#contributing)
+
 ## Description
 
 Syncs your local directory with a remote server directory. Allows you to optionally edit upload a file
@@ -93,6 +109,7 @@ You can see the full config [here](https://github.com/bthompson90/vscode-sftp-re
     - [Config in User Setting](#config-in-user-setting)
   - [Remote Explorer](#remote-explorer)
   - [Debug](#debug)
+  - [Contributing](#contributing)
 
 ### Simple
 
@@ -268,3 +285,8 @@ _Note：_ You need to manually refresh the parent folder after you **delete** a 
    - On macOS - `Code > Preferences > Settings`
 2. Set `sftp.debug` to `true` and reload vscode.
 3. View the logs in `View > Output > sftp`.
+
+## Contributing
+
+Thank you for your interest in contributing!  There are many ways to contribute to this project.  Get
+started by reading the [contributing guide](CONTRIBUTING.md).
